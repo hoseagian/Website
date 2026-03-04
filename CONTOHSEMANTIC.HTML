@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman Semantic HTML5</title>
+    <style>
+        /* CSS sederhana untuk memperjelas struktur */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        header, nav, main, article, section, aside, footer {
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        header {
+            background-color: #e3f2fd;
+        }
+        nav {
+            background-color: #bbdefb;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0d47a1;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+        }
+        article {
+            flex: 3;
+            background-color: #f1f8e9;
+        }
+        aside {
+            flex: 1;
+            background-color: #fff3e0;
+        }
+        footer {
+            background-color: #e0e0e0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        time {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header: bagian atas halaman, biasanya berisi judul dan tagline -->
+    <header>
+        <h1>Website Saya</h1>
+        <p>Selamat datang di contoh halaman dengan semantic HTML5</p>
+    </header>
+
+    <!-- Nav: navigasi utama -->
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main: konten utama halaman -->
+    <main>
+        <!-- Article: konten independen seperti artikel blog -->
+        <article>
+            <h2>Judul Artikel</h2>
+            <p><time datetime="2025-03-03">3 Maret 2025</time> — oleh Penulis</p>
+
+            <!-- Section: bagian-bagian dalam artikel -->
+            <section>
+                <h3>Pendahuluan</h3>
+                <p>Artikel ini ditulis untuk menunjukkan penggunaan elemen semantik HTML5 seperti <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, dan lainnya.</p>
+            </section>
+
+            <section>
+                <h3>Isi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
